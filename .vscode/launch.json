@@ -1,0 +1,139 @@
+{
+   // Use IntelliSense to find out which attributes exist for C# debugging
+   // Use hover for the description of the existing attributes
+   // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+   "version": "0.2.0",
+   "configurations": [
+    {
+        "type": "aws-sam",
+        "request": "direct-invoke",
+        "name": "teste-backend-carrefour:API.Test::Api.Data.Test.DbTeste::Dispose (dotnetcore3.1)",
+        "invokeTarget": {
+            "target": "code",
+            "projectRoot": "\\Users\\Joao_Junior\\Desktop\\teste-backend-carrefour\\API.Test",
+            "lambdaHandler": "API.Test::Api.Data.Test.DbTeste::Dispose"
+        },
+        "lambda": {
+            "runtime": "dotnetcore3.1",
+            "payload": {},
+            "environmentVariables": {}
+        }
+    },
+    {
+        "type": "aws-sam",
+        "request": "direct-invoke",
+        "name": "teste-backend-carrefour:API.Test::Api.Data.Test.ClienteCrudCompleto::E_Possivel_Realizar_CRUD_Usuario (dotnetcore3.1)",
+        "invokeTarget": {
+            "target": "code",
+            "projectRoot": "\\Users\\Joao_Junior\\Desktop\\teste-backend-carrefour\\API.Test",
+            "lambdaHandler": "API.Test::Api.Data.Test.ClienteCrudCompleto::E_Possivel_Realizar_CRUD_Usuario"
+        },
+        "lambda": {
+            "runtime": "dotnetcore3.1",
+            "payload": {},
+            "environmentVariables": {}
+        }
+    },
+    {
+        "type": "aws-sam",
+        "request": "direct-invoke",
+        "name": "teste-backend-carrefour:API.Test::Api.Data.Test.ClienteCrudCompleto::E_Possivel_Realizar_CRUD_Usuario (dotnetcore2.1)",
+        "invokeTarget": {
+            "target": "code",
+            "projectRoot": "\\Users\\Joao_Junior\\Desktop\\teste-backend-carrefour\\API.Test",
+            "lambdaHandler": "API.Test::Api.Data.Test.ClienteCrudCompleto::E_Possivel_Realizar_CRUD_Usuario"
+        },
+        "lambda": {
+            "runtime": "dotnetcore2.1",
+            "payload": {},
+            "environmentVariables": {}
+        }
+    },
+    {
+        "type": "aws-sam",
+        "request": "direct-invoke",
+        "name": "teste-backend-carrefour:API.Test::Api.Data.Test.ClienteCrudCompleto::E_Possivel_Realizar_CRUD_Usuario (dotnetcore3.1)",
+        "invokeTarget": {
+            "target": "code",
+            "projectRoot": "\\Users\\Joao_Junior\\Desktop\\teste-backend-carrefour\\API.Test",
+            "lambdaHandler": "API.Test::Api.Data.Test.ClienteCrudCompleto::E_Possivel_Realizar_CRUD_Usuario"
+        },
+        "lambda": {
+            "runtime": "dotnetcore3.1",
+            "payload": {},
+            "environmentVariables": {}
+        }
+    },
+    {
+        "type": "aws-sam",
+        "request": "direct-invoke",
+        "name": "teste-backend-carrefour:API::EFCore.Repo.ClienteRepository::GetAllAsyncDapper (dotnetcore3.1)",
+        "invokeTarget": {
+            "target": "code",
+            "projectRoot": "\\Users\\Joao_Junior\\Desktop\\teste-backend-carrefour\\API",
+            "lambdaHandler": "API::EFCore.Repo.ClienteRepository::GetAllAsyncDapper"
+        },
+        "lambda": {
+            "runtime": "dotnetcore3.1",
+            "payload": {},
+            "environmentVariables": {}
+        }
+    },
+    {
+        "type": "aws-sam",
+        "request": "direct-invoke",
+        "name": "teste-backend-carrefour:API::API.Services.ClienteService::GetById (dotnetcore3.1)",
+        "invokeTarget": {
+            "target": "code",
+            "projectRoot": "\\Users\\Joao_Junior\\Desktop\\teste-backend-carrefour\\API",
+            "lambdaHandler": "API::API.Services.ClienteService::GetById"
+        },
+        "lambda": {
+            "runtime": "dotnetcore3.1",
+            "payload": {},
+            "environmentVariables": {}
+        }
+    },
+    {
+        "type": "aws-sam",
+        "request": "direct-invoke",
+        "name": "teste-backend-carrefour:API::EFCore.Repo.ClienteRepository::GetAll (dotnetcore3.1)",
+        "invokeTarget": {
+            "target": "code",
+            "projectRoot": "\\Users\\Joao_Junior\\Desktop\\teste-backend-carrefour\\API",
+            "lambdaHandler": "API::EFCore.Repo.ClienteRepository::GetAll"
+        },
+        "lambda": {
+            "runtime": "dotnetcore3.1",
+            "payload": {},
+            "environmentVariables": {}
+        }
+    },
+    {
+        "name": ".NET Core Launch (web)",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "build",
+        "program": "${workspaceFolder}/API/bin/Debug/netcoreapp3.1/API.dll",
+        "args": [],
+        "cwd": "${workspaceFolder}/API",
+        "stopAtEntry": false,
+        "serverReadyAction": {
+            "action": "openExternally",
+            "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+        },
+        "env": {
+            "ASPNETCORE_ENVIRONMENT": "Development"
+        },
+        "sourceFileMap": {
+            "/Views": "${workspaceFolder}/Views"
+        }
+    },
+    {
+        "name": ".NET Core Attach",
+        "type": "coreclr",
+        "request": "attach",
+        "processId": "${command:pickProcess}"
+    }
+]
+}
